@@ -1,0 +1,196 @@
+body {
+  background: linear-gradient(to right, #d9a7c7, #fffcdc, #f9f0c1);
+}
+
+#About h1,
+#Skills h1,
+#Contacts h1,
+#Proj h1 {
+  text-align: center;
+  color: rgb(85, 13, 73);
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 100px;
+  font-family: Segoe UI Black;
+}
+
+p {
+  font-family: Yu Gothic UI Semibold;
+}
+
+ul li a {
+  color: #8a3076;
+  transition: 0.3s ease;
+}
+
+ul li a:hover {
+  color: rgb(240, 103, 155);
+}
+
+.me h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 70px;
+  color: #8a3076;
+}
+
+.abt {
+  width: 700px;
+}
+
+.h-screen {
+  margin: 0;
+}
+
+.txt {
+  padding-bottom: 100;
+}
+
+h6 {
+  text-align: left;
+  padding-left: 200px;
+  color: rgb(204, 54, 99);
+  font-size: 40px;
+  font-weight: 200;
+  font-family: Segoe UI Black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 50px;
+  margin-left: 200px;
+  background-color: transparent;
+  justify-content: center;
+}
+
+.grid-item {
+  padding: 10px;
+  text-align: center;
+}
+
+.grid-item img {
+  max-width: 30%;
+  height: auto;
+}
+
+.sk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.box h5 {
+  padding: 15px;
+  text-align: left;
+  margin: 0;
+  margin-bottom: 20px;
+  background-color: #e291c0;
+  color: #57133d;
+  font-size: 1.1rem;
+  border-radius: 7px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.box h5:hover {
+  background-color: #dbcad3;
+  color: #000;
+}
+
+h1 {
+  margin-bottom: 0;
+  padding-bottom: 200px;
+}
+
+h4 {
+  font-size: 10px;
+}
+
+#Contacts {
+  text-align: center;
+  color: rgb(85, 13, 73);
+  font-size: 40px;
+  font-weight: 500;
+  margin-top: 200px;
+  font-family: Segoe UI Black;
+  margin-bottom: 0;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-info p {
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+
+.contact-info a {
+  color: rgb(85, 13, 73);
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.contact-info a:hover {
+  color: #c93571;
+}
+
+@media (min-width: 768px) {
+  .contact-info {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .contact-info p {
+    margin: 0 10px;
+  }
+}
+
+.project {
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f5c9c9;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+}
+
+.project h2 {
+  color: #8a3076;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project p {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.project a {
+  display: inline-block;
+  color: #fff;
+  background-color: #8a3076;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.project a:hover {
+  background-color: #6d235c;
+}
+
+.footer {
+  margin-top: 250px;
+  background-color: #6d235c;
+}
